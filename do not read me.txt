@@ -1,0 +1,109 @@
+			I KNEW YOU WOULD READ THIS...
+==========================================================================
+ENHANCED FUNCTIONS FOR VISUAL BASIC 5.0 AND 6.0 - UPDATED FILES AS OF 27/3
+SUSHANT PANDURANGI (sushant@phreaker.net) (http://sushantshome.tripod.com)
+==========================================================================
+
+=================================================================
+IMPORTANT INFORMATION AND RELEASE NOTES ARE INCLUDED IN THIS FILE.
+=================================================================
+THIS ZIP DOES NOT CONTAIN COMPILED BINARY DLL, EXE OR OCX FILES.
+PLEASE READ ATLEAST THE CAPITALIZED LINES IN THIS DOCUMENTATION.
+=================================================================
+THIS CURRENT ZIP FILE CONTAINS ONLY ONE MAIN DLL; THE MODULES CONTAINED PREVIOUSLY IN THE MAIN DLL NOW HAVE THEIR OWN SEPARATE PROJECTS AND CAN FORM SEPARATE DLL FILES BY THEMSELVES. YOU CAN USE THOSE YOU WANT WITHOUT HAVING TO REFERENCE THE OTHER MODULES. THE ENTIRE DLL IS INCLUDED IN THIS ZIP FILE. YOU CAN REFERENCE IT IF YOU WANT TO USE THE TOTAL FUNCTIONALITY OF ALL MODULES IN YOUR PROJECT.
+=================================================================
+DO NOT USE THE MENUS MODULE IN YOUR PROJECTS WITHOUT FIRST ADDING
+THE MICROSOFT WINDOWS COMMON CONTROLS 5.0 OR 6.0 TO THE COMPONENTS.
+FAILURE TO DO SO WILL CAUSE A CRASH ON YOUR SYSTEM THE TIME YOU TRY
+TO ACTIVATE THE MENUS IN YOUR FORM.
+=================================================================
+VB6LIB.DLL IS COPYRIGHT(C) SUSHANT PANDURANGI, 2000-2001. PLEASE DO
+NOT DISTRIBUTE THIS AS PART OF OR INCLUDED WITH COMMERCIAL SOFTWARE
+WITHOUT PRIOR NOTICE TO THE AUTHOR.           (sushant@phreaker.net)
+=================================================================
+
+-------------
+1. OVERVIEW
+-------------
+This DLL has been created using Visual Basic 6.0. This version of VB
+has some new functions, which are probably not available in earlier
+versions. This DLL contains functions that may be used by both VB 5.0
+and VB6 to enhance the interface as well as the functionality of your
+projects. You can add wonderful proffesionalism to your applications
+with this DLL by using the many modules it has. You can play MP3 and
+WAV files, encrypt and decrypt text, manipulate strings, Create graphics
+effects and do more. The Total version like the previous includes all the 9
+modules - Strings, API, Interaction, Sounds, Network, Menus, Graphics,
+General, and Registry. The ReadValue() and SaveValue() functions are in
+the Strings module although it is planned to move them in the Registry
+module probably in the next release. This only includes the VB6LIB.DLL;
+it does not  have the files for the other DLLs. Please check with the page
+http://sushantshome.tripod.com/vb/vb6lib.html for more information.
+
+--------------
+2. NOTES/INFO
+--------------
+The DLL being referred to is not actually readily supplied for various
+reasons (it being a binary file), some of which are:
+
+      a) For fear of viruses while in transit through the web and
+      b) To considerably decrease the file size of the ZIP file.
+
+Please bear with me for the inconvenience if any. The DLL files as well
+as the EXP and LIB files can be created by using the 'Make DLL' command
+in Visual Basic. The EXP and LIBs are constructed automatically in this
+process.
+
+---------------
+3. REFERENCING
+---------------
+You can add this DLL to your projects by using the 'References' command.
+Browse for the DLL and set it there. This release does not contain the split
+up DLLs (one each of the particular modules). You can reference the
+Main DLL which contains all the modules.
+
+------------------
+4. THIS VERSION
+------------------
+As described above, this version contains the main DLL project only. In the
+Total version, You can simply use the modules you want without the need to 
+reference the other modules. This version is 2.01.044. Please be sure to send 
+comments and feedback at sushant@phreaker.net or http://sushantshome.tripod.com.
+
+-----------------
+5. RESTRICTIONS
+-----------------
+You are not given any restrictions for the usage of this code except
+for the inclusion of it in commercial projects, where permission from
+me would be required (or atleast the inclusion be brought to my notice).
+If you appreciate the work put into the creation of these Libraries,
+please include my name and if possible a link to my homepage or email
+address in the credits section. This DLL may be used in all kinds of 
+projects which are intended for FREE NON-PROFIT distribution.
+
+------------
+6. SIGNOFF
+------------
+I was involved in developing major projects which didnt work out too well
+and I'm sure you know what it felt like when I would've realized what I
+had been doing was not paying off. That is why I decided to do something
+that would help others like me to enhance their apps and never feel that
+there is something that cannot be accomplished with good old VB. This and
+a few ActiveX controls that I made have been put up on the many websites
+on the internet in the hope that they will somehow be useful to someone.
+
+==========================================================================
+
+Please check out my other files:
+
+ * Font Dialog ActiveX Control Module
+ * Win32 Proccess Heap Viewer ActiveX Control
+ * Splitting MDI Forms - A tutorial on MDIs
+ * "Installer Magic" Installation Utility
+ 
+These files are available on most of the internet websites that showcase
+the work of us developers and programmers around the world.
+
+==========================================================================
+SUSHANT PANDURANGI (sushant@phreaker.net) (http://sushantshome.tripod.com)
+==========================================================================
